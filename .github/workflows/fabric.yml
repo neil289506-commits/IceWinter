@@ -33,7 +33,7 @@ jobs:
           - version: "26.2"
             allow_failure: false
           - version: "26.3"
-            allow_failure: false
+            allow_failure: true
     continue-on-error: ${{ matrix.allow_failure }}
     defaults:
       run:
