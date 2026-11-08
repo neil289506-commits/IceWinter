@@ -1,0 +1,70 @@
+name: Build Mod
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - ".github/workflows/decompile.yaml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 25
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Build
+        run: |
+          chmod +x ./gradlew
+          set -o pipefail
+          ./gradlew build --no-daemon --stacktrace 2>&1 | tee build.log
+
+      - name: Upload mod jar
+        uses: actions/upload-artifact@v4
+        with:
+          name: mod-jar
+          path: |
+            build/libs/*.jar
+            !build/libs/*-sources.jar
+          if-no-files-found: error
+
+      - name: Push built jar to private branch ci-jar
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/push
+          for f in build/libs/*.jar; do case "$f" in *-sources.jar) ;; *) cp "$f" /tmp/push/ ;; esac; done
+          ls -lh /tmp/push
+          cd /tmp/push && git init -q && git checkout -q -b ci-jar
+          git config user.name github-actions && git config user.email actions@github.com
+          git add . && git commit -q -m "built jar"
+          git push -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" ci-jar
+
+      - name: Push build log to private branch ci-build on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/push
+          tail -n 400 build.log > /tmp/push/build-tail.log || true
+          grep -n -E "error:|warning: \[|FAILED|What went wrong|Caused by" build.log | head -80 > /tmp/push/errors.log || true
+          cd /tmp/push && git init -q && git checkout -q -b ci-build
+          git config user.name github-actions && git config user.email actions@github.com
+          git add . && git commit -q -m "build failure log" || true
+          git push -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" ci-build

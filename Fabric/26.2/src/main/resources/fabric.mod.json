@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "icewinter",
+	"version": "${version}",
+	"name": "IceWinter",
+	"description": "Backports Minecraft 26.4 content (Ice Caves, Packed Ice Bricks, Snow Bricks, Calcite, Frostbite and more) to 26.2.",
+	"authors": [
+		"neil289506-commits"
+	],
+	"contact": {
+		"homepage": "https://github.com/neil289506-commits/Minecraft---Docompile",
+		"sources": "https://github.com/neil289506-commits/Minecraft---Docompile"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/icewinter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"backport.org.TwoSixFourBackPort"
+		],
+		"client": [
+			"backport.org.client.TwoSixFourBackPortClient"
+		]
+	},
+	"mixins": [
+		"icewinter.mixins.json",
+		{
+			"config": "icewinter.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
