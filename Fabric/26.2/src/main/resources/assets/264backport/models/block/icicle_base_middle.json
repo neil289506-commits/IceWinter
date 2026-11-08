@@ -1,8 +1,0 @@
-{
-  "parent": "264backport:block/template_icicle_base",
-  "textures": {
-    "cross": "264backport:block/icicle_middle",
-    "side": "264backport:block/icicle_side",
-    "top": "264backport:block/icicle_top"
-  }
-}

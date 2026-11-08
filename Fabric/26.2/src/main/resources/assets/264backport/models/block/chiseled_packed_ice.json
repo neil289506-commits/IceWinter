@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "264backport:block/chiseled_packed_ice"
-  }
-}

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "264backport:block/brittle_ice_2"
+    "all": "icewinter:block/chiseled_soulshale"
   }
 }

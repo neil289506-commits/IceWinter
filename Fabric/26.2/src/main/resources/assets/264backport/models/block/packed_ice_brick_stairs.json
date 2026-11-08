@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "264backport:block/packed_ice_bricks",
-    "side": "264backport:block/packed_ice_bricks",
-    "top": "264backport:block/packed_ice_bricks"
-  }
-}
