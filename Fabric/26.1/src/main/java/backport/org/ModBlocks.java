@@ -15,7 +15,7 @@ import net.minecraft.world.item.Item;
 import backport.org.block.BrittleIceBlock;
 import backport.org.block.IceCrystalBlock;
 import backport.org.block.IcicleBlock;
-import net.minecraft.world.entity.EntityTypes;
+// EntityType constants are used directly on this target.
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.RotatedPillarBlock;
@@ -115,7 +115,7 @@ public final class ModBlocks {
 			.sound(ModSounds.BRITTLE_ICE_SOUNDS)
 			.noOcclusion()
 			.instrument(NoteBlockInstrument.CHIME)
-			.isValidSpawn((state, level, pos, type) -> type == EntityTypes.POLAR_BEAR)
+			.isValidSpawn((state, level, pos, type) -> type == EntityType.POLAR_BEAR)
 			.isRedstoneConductor((state, level, pos) -> false)
 			.pushReaction(PushReaction.DESTROY));
 

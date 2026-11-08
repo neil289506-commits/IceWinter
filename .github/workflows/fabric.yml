@@ -25,15 +25,15 @@ jobs:
       matrix:
         include:
           - version: "26.1"
-            allow_failure: true
+            allow_failure: false
           - version: "26.1.1"
-            allow_failure: true
+            allow_failure: false
           - version: "26.1.2"
-            allow_failure: true
+            allow_failure: false
           - version: "26.2"
             allow_failure: false
           - version: "26.3"
-            allow_failure: true
+            allow_failure: false
     continue-on-error: ${{ matrix.allow_failure }}
     defaults:
       run:

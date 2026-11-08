@@ -16,7 +16,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.EntityTypes;
+// EntityType constants are used directly on this target.
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
@@ -148,7 +148,7 @@ public final class Frostbite extends Zombie implements RangedAttackMob {
 	@Override
 	protected void doUnderWaterConversion(ServerLevel level) {
 		this.playSound(ModSounds.ENTITY_FROSTBITE_CONVERTED_TO_ZOMBIE, 1.0F, 1.0F);
-		this.convertToZombieType(level, EntityTypes.ZOMBIE);
+		this.convertToZombieType(level, EntityType.ZOMBIE);
 	}
 
 	@Override

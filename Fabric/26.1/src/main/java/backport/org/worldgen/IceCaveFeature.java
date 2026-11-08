@@ -11,9 +11,7 @@ import net.minecraft.core.BlockPos.MutableBlockPos;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.WorldGenLevel;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.SpeleothemBlock;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.properties.SpeleothemThickness;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
 import net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration;
@@ -189,29 +187,11 @@ public final class IceCaveFeature extends Feature<NoneFeatureConfiguration> {
 
       for (int index = 0; index < length; index++) {
          BlockPos target = start.relative(direction, index);
-         BlockState state = (BlockState)((BlockState)ModBlocks.ICICLE
-               .defaultBlockState()
-               .setValue(SpeleothemBlock.TIP_DIRECTION, direction))
-            .setValue(IcicleBlock.ATTACHED, index == 0);
-         level.setBlock(target, withThickness(state, index, length), 2);
+         BlockState state = ModBlocks.ICICLE.defaultBlockState().setValue(IcicleBlock.ATTACHED, index == 0);
+         level.setBlock(target, state, 2);
       }
 
       return true;
-   }
-
-   private static BlockState withThickness(BlockState state, int index, int length) {
-      SpeleothemThickness thickness;
-      if (length == 1 || index == length - 1) {
-         thickness = SpeleothemThickness.TIP;
-      } else if (index == length - 2) {
-         thickness = SpeleothemThickness.FRUSTUM;
-      } else if (index == 0) {
-         thickness = SpeleothemThickness.BASE;
-      } else {
-         thickness = SpeleothemThickness.MIDDLE;
-      }
-
-      return (BlockState)state.setValue(SpeleothemBlock.THICKNESS, thickness);
    }
 
    private static boolean insideChunk(BlockPos pos, int minX, int maxX, int minZ, int maxZ) {

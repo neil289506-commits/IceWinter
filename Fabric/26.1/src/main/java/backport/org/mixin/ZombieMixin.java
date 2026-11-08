@@ -8,7 +8,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.entity.ConversionParams;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.EntityTypes;
+// EntityType constants are used directly on this target.
 import net.minecraft.world.entity.monster.zombie.Drowned;
 import net.minecraft.world.entity.monster.zombie.Zombie;
 import org.spongepowered.asm.mixin.Mixin;
@@ -28,7 +28,7 @@ abstract class ZombieMixin {
    private void iceCaves$convertInPowderSnow(CallbackInfo ci) {
       Zombie zombie = (Zombie)(Object)this;
       if (!(zombie instanceof Frostbite) && zombie.level() instanceof ServerLevel && zombie.isAlive() && !zombie.isNoAi()) {
-         if (zombie instanceof Drowned || zombie.getType() == EntityTypes.ZOMBIE || zombie.getType() == EntityTypes.HUSK) {
+         if (zombie instanceof Drowned || zombie.getType() == EntityType.ZOMBIE || zombie.getType() == EntityType.HUSK) {
             if (!zombie.isInPowderSnow || FreezeProtection.wearsProtection(zombie)) {
                this.iceCaves$powderSnowTicks = 0;
                this.iceCaves$conversionTicks = -1;
@@ -40,7 +40,7 @@ abstract class ZombieMixin {
                boolean drowned = zombie instanceof Drowned;
                EntityType<? extends Zombie> target;
                if (drowned) {
-                  target = EntityTypes.ZOMBIE;
+                  target = EntityType.ZOMBIE;
                } else {
                   target = (EntityType<? extends Zombie>)ModEntities.FROSTBITE;
                }
