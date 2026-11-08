@@ -16,6 +16,7 @@ import backport.org.block.BrittleIceBlock;
 import backport.org.block.IceCrystalBlock;
 import backport.org.block.IcicleBlock;
 // EntityType constants are used directly on this target.
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.RotatedPillarBlock;
