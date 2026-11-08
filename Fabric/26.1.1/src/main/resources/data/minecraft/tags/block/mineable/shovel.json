@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "icewinter:snow_bricks",
+    "icewinter:snow_brick_slab",
+    "icewinter:snow_brick_stairs",
+    "icewinter:snow_brick_wall"
+  ]
+}

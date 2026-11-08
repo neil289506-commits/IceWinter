@@ -1,0 +1,6 @@
+{
+  "parent": "icewinter:block/cross",
+  "textures": {
+    "cross": "icewinter:block/ice_crystal"
+  }
+}

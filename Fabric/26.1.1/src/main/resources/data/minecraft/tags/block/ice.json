@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "icewinter:packed_ice_bricks",
+    "icewinter:chiseled_packed_ice",
+    "icewinter:brittle_ice"
+  ]
+}

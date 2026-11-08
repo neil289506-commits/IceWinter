@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "org.backport.client.mixin",
+	"package": "backport.org.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
 		"ExampleClientMixin"

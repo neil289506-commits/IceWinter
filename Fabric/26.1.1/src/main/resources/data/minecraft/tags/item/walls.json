@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "icewinter:packed_ice_brick_wall",
+    "icewinter:snow_brick_wall",
+    "icewinter:calcite_wall",
+    "icewinter:polished_calcite_wall",
+    "icewinter:polished_calcite_brick_wall"
+  ]
+}

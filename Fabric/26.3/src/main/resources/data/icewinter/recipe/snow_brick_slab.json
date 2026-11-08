@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "icewinter:snow_bricks"
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "id": "icewinter:snow_brick_slab",
+    "count": 6
+  }
+}

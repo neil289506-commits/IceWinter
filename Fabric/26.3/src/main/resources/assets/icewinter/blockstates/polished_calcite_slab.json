@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "icewinter:block/polished_calcite_slab"
+    },
+    "type=double": {
+      "model": "icewinter:block/polished_calcite_slab_double"
+    },
+    "type=top": {
+      "model": "icewinter:block/polished_calcite_slab_top"
+    }
+  }
+}

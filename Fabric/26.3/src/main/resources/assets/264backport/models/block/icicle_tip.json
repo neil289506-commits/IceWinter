@@ -1,0 +1,6 @@
+{
+  "parent": "264backport:block/template_icicle",
+  "textures": {
+    "cross": "264backport:block/icicle_tip"
+  }
+}

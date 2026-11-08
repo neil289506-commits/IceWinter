@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "icewinter:calcite_pillar",
+    "icewinter:polished_calcite",
+    "icewinter:polished_calcite_bricks",
+    "minecraft:calcite",
+    "icewinter:chiseled_soulshale"
+  ]
+}

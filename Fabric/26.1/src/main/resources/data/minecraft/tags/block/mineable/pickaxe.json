@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "icewinter:packed_ice_bricks",
+    "icewinter:packed_ice_brick_slab",
+    "icewinter:packed_ice_brick_stairs",
+    "icewinter:packed_ice_brick_wall",
+    "icewinter:chiseled_packed_ice",
+    "icewinter:brittle_ice",
+    "icewinter:calcite_pillar",
+    "icewinter:calcite_slab",
+    "icewinter:calcite_stairs",
+    "icewinter:calcite_wall",
+    "icewinter:polished_calcite",
+    "icewinter:polished_calcite_slab",
+    "icewinter:polished_calcite_stairs",
+    "icewinter:polished_calcite_wall",
+    "icewinter:polished_calcite_bricks",
+    "icewinter:polished_calcite_brick_slab",
+    "icewinter:polished_calcite_brick_stairs",
+    "icewinter:polished_calcite_brick_wall",
+    "icewinter:icicle",
+    "icewinter:ice_crystal",
+    "icewinter:chiseled_soulshale"
+  ]
+}

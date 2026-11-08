@@ -1,0 +1,799 @@
+{
+  "block.ice_crystal.break": {
+    "sounds": [
+      "icewinter:icb/block/ice_crystal/break1",
+      "icewinter:icb/block/ice_crystal/break2",
+      "icewinter:icb/block/ice_crystal/break3",
+      "icewinter:icb/block/ice_crystal/break4",
+      "icewinter:icb/block/ice_crystal/break5"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.ice_crystal.fall": {
+    "sounds": [
+      "icewinter:icb/block/ice_crystal/hit1",
+      "icewinter:icb/block/ice_crystal/hit2",
+      "icewinter:icb/block/ice_crystal/hit3",
+      "icewinter:icb/block/ice_crystal/hit4",
+      "icewinter:icb/block/ice_crystal/hit5"
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.ice_crystal.hit": {
+    "sounds": [
+      "icewinter:icb/block/ice_crystal/hit1",
+      "icewinter:icb/block/ice_crystal/hit2",
+      "icewinter:icb/block/ice_crystal/hit3",
+      "icewinter:icb/block/ice_crystal/hit4",
+      "icewinter:icb/block/ice_crystal/hit5"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.ice_crystal.place": {
+    "sounds": [
+      "icewinter:icb/block/ice_crystal/place1",
+      "icewinter:icb/block/ice_crystal/place2",
+      "icewinter:icb/block/ice_crystal/place3",
+      "icewinter:icb/block/ice_crystal/place4",
+      "icewinter:icb/block/ice_crystal/place5"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.ice_crystal.step": {
+    "sounds": [
+      "icewinter:icb/block/ice_crystal/step1",
+      "icewinter:icb/block/ice_crystal/step2",
+      "icewinter:icb/block/ice_crystal/step3",
+      "icewinter:icb/block/ice_crystal/step4",
+      "icewinter:icb/block/ice_crystal/step5"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.ice.break": {
+    "sounds": [
+      "icewinter:icb/block/ice/break1",
+      "icewinter:icb/block/ice/break2",
+      "icewinter:icb/block/ice/break3",
+      "icewinter:icb/block/ice/break4",
+      "icewinter:icb/block/ice/break5",
+      "icewinter:icb/block/ice/break6"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.ice.fall": {
+    "sounds": [
+      "icewinter:icb/block/ice/hit1",
+      "icewinter:icb/block/ice/hit2",
+      "icewinter:icb/block/ice/hit3",
+      "icewinter:icb/block/ice/hit4",
+      "icewinter:icb/block/ice/hit5"
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.ice.hit": {
+    "sounds": [
+      "icewinter:icb/block/ice/hit1",
+      "icewinter:icb/block/ice/hit2",
+      "icewinter:icb/block/ice/hit3",
+      "icewinter:icb/block/ice/hit4",
+      "icewinter:icb/block/ice/hit5"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.ice.place": {
+    "sounds": [
+      "icewinter:icb/block/ice/place1",
+      "icewinter:icb/block/ice/place2",
+      "icewinter:icb/block/ice/place3",
+      "icewinter:icb/block/ice/place4",
+      "icewinter:icb/block/ice/place5",
+      "icewinter:icb/block/ice/place6"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.ice.step": {
+    "sounds": [
+      "icewinter:icb/block/ice/step1",
+      "icewinter:icb/block/ice/step2",
+      "icewinter:icb/block/ice/step3",
+      "icewinter:icb/block/ice/step4",
+      "icewinter:icb/block/ice/step5",
+      "icewinter:icb/block/ice/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.icicle.break": {
+    "sounds": [
+      "icewinter:icb/block/icicle/break1",
+      "icewinter:icb/block/icicle/break2",
+      "icewinter:icb/block/icicle/break3",
+      "icewinter:icb/block/icicle/break4",
+      "icewinter:icb/block/icicle/break5",
+      "icewinter:icb/block/icicle/break6"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.icicle.fall": {
+    "sounds": [
+      "icewinter:icb/block/icicle/hit1",
+      "icewinter:icb/block/icicle/hit2",
+      "icewinter:icb/block/icicle/hit3",
+      "icewinter:icb/block/icicle/hit4",
+      "icewinter:icb/block/icicle/hit5"
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.icicle.hit": {
+    "sounds": [
+      "icewinter:icb/block/icicle/hit1",
+      "icewinter:icb/block/icicle/hit2",
+      "icewinter:icb/block/icicle/hit3",
+      "icewinter:icb/block/icicle/hit4",
+      "icewinter:icb/block/icicle/hit5"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.icicle.land": {
+    "sounds": [
+      "icewinter:icb/block/icicle/land1",
+      "icewinter:icb/block/icicle/land2",
+      "icewinter:icb/block/icicle/land3",
+      "icewinter:icb/block/icicle/land4",
+      "icewinter:icb/block/icicle/land5",
+      "icewinter:icb/block/icicle/land6"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.icicle.place": {
+    "sounds": [
+      "icewinter:icb/block/icicle/place1",
+      "icewinter:icb/block/icicle/place2",
+      "icewinter:icb/block/icicle/place3",
+      "icewinter:icb/block/icicle/place4",
+      "icewinter:icb/block/icicle/place5",
+      "icewinter:icb/block/icicle/place6"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.icicle.step": {
+    "sounds": [
+      "icewinter:icb/block/icicle/step1",
+      "icewinter:icb/block/icicle/step2",
+      "icewinter:icb/block/icicle/step3",
+      "icewinter:icb/block/icicle/step4",
+      "icewinter:icb/block/icicle/step5",
+      "icewinter:icb/block/icicle/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.frostbite.ambient": {
+    "sounds": [
+      "icewinter:icb/mob/frostbite/ambient1",
+      "icewinter:icb/mob/frostbite/ambient2",
+      "icewinter:icb/mob/frostbite/ambient3",
+      "icewinter:icb/mob/frostbite/ambient4"
+    ],
+    "subtitle": "subtitles.entity.frostbite.ambient"
+  },
+  "entity.frostbite.converted_to_zombie": {
+    "sounds": [
+      "icewinter:icb/mob/frostbite/convert1",
+      "icewinter:icb/mob/frostbite/convert2"
+    ],
+    "subtitle": "subtitles.entity.frostbite.converted_to_zombie"
+  },
+  "entity.frostbite.death": {
+    "sounds": [
+      "icewinter:icb/mob/frostbite/death"
+    ],
+    "subtitle": "subtitles.entity.frostbite.death"
+  },
+  "entity.frostbite.hurt": {
+    "sounds": [
+      "icewinter:icb/mob/frostbite/hurt1",
+      "icewinter:icb/mob/frostbite/hurt2",
+      "icewinter:icb/mob/frostbite/hurt3",
+      "icewinter:icb/mob/frostbite/hurt4"
+    ],
+    "subtitle": "subtitles.entity.frostbite.hurt"
+  },
+  "entity.frostbite.step": {
+    "sounds": [
+      "icewinter:icb/mob/frostbite/step1",
+      "icewinter:icb/mob/frostbite/step2",
+      "icewinter:icb/mob/frostbite/step3",
+      "icewinter:icb/mob/frostbite/step4",
+      "icewinter:icb/mob/frostbite/step5"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.ice_ball.break": {
+    "sounds": [
+      {
+        "name": "icewinter:icb/entity/ice_ball/hit1",
+        "pitch": 2.0
+      },
+      {
+        "name": "icewinter:icb/entity/ice_ball/hit2",
+        "pitch": 2.0
+      },
+      {
+        "name": "icewinter:icb/entity/ice_ball/hit3",
+        "pitch": 2.0
+      },
+      {
+        "name": "icewinter:icb/entity/ice_ball/hit4",
+        "pitch": 2.0
+      }
+    ],
+    "subtitle": "subtitles.entity.ice_ball.break"
+  },
+  "entity.ice_ball.throw": {
+    "sounds": [
+      "icewinter:icb/entity/ice_ball/bow"
+    ],
+    "subtitle": "subtitles.entity.ice_ball.throw"
+  },
+  "entity.zombie.converted_to_frostbite": {
+    "sounds": [
+      "icewinter:icb/mob/zombie/convert1",
+      "icewinter:icb/mob/zombie/convert2"
+    ],
+    "subtitle": "subtitles.entity.zombie.converted_to_frostbite"
+  },
+  "block.blue_ice.break": {
+    "sounds": [
+      "icewinter:block/blue_ice/break1",
+      "icewinter:block/blue_ice/break2",
+      "icewinter:block/blue_ice/break3",
+      "icewinter:block/blue_ice/break4",
+      "icewinter:block/blue_ice/break5",
+      "icewinter:block/blue_ice/break6"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.blue_ice.fall": {
+    "sounds": [
+      "icewinter:block/blue_ice/hit1",
+      "icewinter:block/blue_ice/hit2",
+      "icewinter:block/blue_ice/hit3",
+      "icewinter:block/blue_ice/hit4",
+      "icewinter:block/blue_ice/hit5"
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.blue_ice.hit": {
+    "sounds": [
+      "icewinter:block/blue_ice/hit1",
+      "icewinter:block/blue_ice/hit2",
+      "icewinter:block/blue_ice/hit3",
+      "icewinter:block/blue_ice/hit4",
+      "icewinter:block/blue_ice/hit5"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.blue_ice.place": {
+    "sounds": [
+      "icewinter:block/blue_ice/place1",
+      "icewinter:block/blue_ice/place2",
+      "icewinter:block/blue_ice/place3",
+      "icewinter:block/blue_ice/place4",
+      "icewinter:block/blue_ice/place5",
+      "icewinter:block/blue_ice/place6"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.blue_ice.step": {
+    "sounds": [
+      "icewinter:block/blue_ice/step1",
+      "icewinter:block/blue_ice/step2",
+      "icewinter:block/blue_ice/step3",
+      "icewinter:block/blue_ice/step4",
+      "icewinter:block/blue_ice/step5",
+      "icewinter:block/blue_ice/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.brittle_ice.break": {
+    "sounds": [
+      "icewinter:block/brittle_ice/break1",
+      "icewinter:block/brittle_ice/break2",
+      "icewinter:block/brittle_ice/break3",
+      "icewinter:block/brittle_ice/break4",
+      "icewinter:block/brittle_ice/break5",
+      "icewinter:block/brittle_ice/break6"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.brittle_ice.fall": {
+    "sounds": [
+      "icewinter:block/brittle_ice/break1",
+      "icewinter:block/brittle_ice/break2",
+      "icewinter:block/brittle_ice/break3",
+      "icewinter:block/brittle_ice/break4",
+      "icewinter:block/brittle_ice/break5",
+      "icewinter:block/brittle_ice/break6"
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.brittle_ice.hit": {
+    "sounds": [
+      "icewinter:block/brittle_ice/hit1",
+      "icewinter:block/brittle_ice/hit2",
+      "icewinter:block/brittle_ice/hit3",
+      "icewinter:block/brittle_ice/hit4",
+      "icewinter:block/brittle_ice/hit5",
+      "icewinter:block/brittle_ice/hit6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.brittle_ice.place": {
+    "sounds": [
+      "icewinter:block/brittle_ice/place1",
+      "icewinter:block/brittle_ice/place2",
+      "icewinter:block/brittle_ice/place3",
+      "icewinter:block/brittle_ice/place4",
+      "icewinter:block/brittle_ice/place5",
+      "icewinter:block/brittle_ice/place6"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.brittle_ice.step": {
+    "sounds": [
+      "icewinter:block/brittle_ice/step1",
+      "icewinter:block/brittle_ice/step2",
+      "icewinter:block/brittle_ice/step3",
+      "icewinter:block/brittle_ice/step4",
+      "icewinter:block/brittle_ice/step5",
+      "icewinter:block/brittle_ice/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.brittle_ice.crack": {
+    "sounds": [
+      "icewinter:block/brittle_ice/crack1",
+      "icewinter:block/brittle_ice/crack2",
+      "icewinter:block/brittle_ice/crack3",
+      "icewinter:block/brittle_ice/crack4",
+      "icewinter:block/brittle_ice/crack5"
+    ],
+    "subtitle": "subtitles.block.brittle_ice.crack"
+  },
+  "block.frosted_ice.break": {
+    "sounds": [
+      "icewinter:block/frosted_ice/break1",
+      "icewinter:block/frosted_ice/break2",
+      "icewinter:block/frosted_ice/break3",
+      "icewinter:block/frosted_ice/break4",
+      "icewinter:block/frosted_ice/break5",
+      "icewinter:block/frosted_ice/break6"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.frosted_ice.fall": {
+    "sounds": [
+      "icewinter:block/frosted_ice/hit1",
+      "icewinter:block/frosted_ice/hit2",
+      "icewinter:block/frosted_ice/hit3",
+      "icewinter:block/frosted_ice/hit4",
+      "icewinter:block/frosted_ice/hit5",
+      "icewinter:block/frosted_ice/hit6"
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.frosted_ice.hit": {
+    "sounds": [
+      "icewinter:block/frosted_ice/hit1",
+      "icewinter:block/frosted_ice/hit2",
+      "icewinter:block/frosted_ice/hit3",
+      "icewinter:block/frosted_ice/hit4",
+      "icewinter:block/frosted_ice/hit5",
+      "icewinter:block/frosted_ice/hit6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.frosted_ice.place": {
+    "sounds": [
+      "icewinter:block/frosted_ice/place1",
+      "icewinter:block/frosted_ice/place2",
+      "icewinter:block/frosted_ice/place3",
+      "icewinter:block/frosted_ice/place4",
+      "icewinter:block/frosted_ice/place5",
+      "icewinter:block/frosted_ice/place6"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.frosted_ice.step": {
+    "sounds": [
+      "icewinter:block/frosted_ice/step1",
+      "icewinter:block/frosted_ice/step2",
+      "icewinter:block/frosted_ice/step3",
+      "icewinter:block/frosted_ice/step4",
+      "icewinter:block/frosted_ice/step5",
+      "icewinter:block/frosted_ice/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.packed_ice.break": {
+    "sounds": [
+      "icewinter:block/packed_ice/break1",
+      "icewinter:block/packed_ice/break2",
+      "icewinter:block/packed_ice/break3",
+      "icewinter:block/packed_ice/break4",
+      "icewinter:block/packed_ice/break5",
+      "icewinter:block/packed_ice/break6"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.packed_ice.fall": {
+    "sounds": [
+      "icewinter:block/packed_ice/hit1",
+      "icewinter:block/packed_ice/hit2",
+      "icewinter:block/packed_ice/hit3",
+      "icewinter:block/packed_ice/hit4",
+      "icewinter:block/packed_ice/hit5",
+      "icewinter:block/packed_ice/hit6"
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.packed_ice.hit": {
+    "sounds": [
+      "icewinter:block/packed_ice/hit1",
+      "icewinter:block/packed_ice/hit2",
+      "icewinter:block/packed_ice/hit3",
+      "icewinter:block/packed_ice/hit4",
+      "icewinter:block/packed_ice/hit5",
+      "icewinter:block/packed_ice/hit6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.packed_ice.place": {
+    "sounds": [
+      "icewinter:block/packed_ice/place1",
+      "icewinter:block/packed_ice/place2",
+      "icewinter:block/packed_ice/place3",
+      "icewinter:block/packed_ice/place4",
+      "icewinter:block/packed_ice/place5",
+      "icewinter:block/packed_ice/place6"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.packed_ice.step": {
+    "sounds": [
+      "icewinter:block/packed_ice/step1",
+      "icewinter:block/packed_ice/step2",
+      "icewinter:block/packed_ice/step3",
+      "icewinter:block/packed_ice/step4",
+      "icewinter:block/packed_ice/step5",
+      "icewinter:block/packed_ice/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.drowned.converted_to_zombie": {
+    "sounds": [
+      "icewinter:mob/drowned/convert_to_zombie1",
+      "icewinter:mob/drowned/convert_to_zombie2"
+    ],
+    "subtitle": "subtitles.entity.drowned.converted_to_zombie"
+  },
+  "block.ice.ambient": {
+    "subtitle": "subtitles.block.ice.ambient",
+    "sounds": [
+      {
+        "name": "icewinter:block/ice/ambient1",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient2",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient3",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient4",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient5",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient6",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient7",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient8",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient9",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient10",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient11",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient12",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient13",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient14",
+        "volume": 4.0
+      },
+      {
+        "weight": 2,
+        "volume": 4.0,
+        "name": "icewinter:block/ice/ambient15"
+      },
+      {
+        "name": "icewinter:block/ice/ambient16",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient17",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient18",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient19",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient20",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient21",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient22",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice/ambient23",
+        "volume": 4.0
+      }
+    ]
+  },
+  "block.ice_crystal.ambient": {
+    "sounds": [
+      {
+        "name": "icewinter:block/ice_crystal/ambient1",
+        "volume": 4.0,
+        "weight": 3
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient2",
+        "volume": 4.0,
+        "weight": 3
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient3",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient4",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient5",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient6",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient7",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient8",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient9",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient10",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient11",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient12",
+        "volume": 4.0,
+        "weight": 3
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient13",
+        "volume": 4.0,
+        "weight": 3
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient14",
+        "volume": 4.0,
+        "weight": 3
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient15",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient16",
+        "volume": 4.0,
+        "weight": 3
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient17",
+        "volume": 4.0,
+        "weight": 3
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient18",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient19",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient20",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient21",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient22",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient23",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient24",
+        "volume": 4.0
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient25",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient26",
+        "volume": 4.0,
+        "weight": 3
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient27",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "icewinter:block/ice_crystal/ambient28",
+        "volume": 4.0,
+        "weight": 2
+      }
+    ],
+    "subtitle": "subtitles.block.ice_crystal.ambient"
+  },
+  "block.chiseled_soulshale.break": {
+    "sounds": [
+      "icewinter:block/chiseled_soulshale/break1",
+      "icewinter:block/chiseled_soulshale/break2",
+      "icewinter:block/chiseled_soulshale/break3",
+      "icewinter:block/chiseled_soulshale/break4",
+      "icewinter:block/chiseled_soulshale/break5"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.chiseled_soulshale.fall": {
+    "sounds": [
+      "icewinter:block/chiseled_soulshale/step1",
+      "icewinter:block/chiseled_soulshale/step2",
+      "icewinter:block/chiseled_soulshale/step3",
+      "icewinter:block/chiseled_soulshale/step4",
+      "icewinter:block/chiseled_soulshale/step5"
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.chiseled_soulshale.hit": {
+    "sounds": [
+      "icewinter:block/chiseled_soulshale/hit1",
+      "icewinter:block/chiseled_soulshale/hit2",
+      "icewinter:block/chiseled_soulshale/hit3",
+      "icewinter:block/chiseled_soulshale/hit4",
+      "icewinter:block/chiseled_soulshale/hit5"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.chiseled_soulshale.place": {
+    "sounds": [
+      "icewinter:block/chiseled_soulshale/place1",
+      "icewinter:block/chiseled_soulshale/place2",
+      "icewinter:block/chiseled_soulshale/place3",
+      "icewinter:block/chiseled_soulshale/place4",
+      "icewinter:block/chiseled_soulshale/place5"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.chiseled_soulshale.step": {
+    "sounds": [
+      "icewinter:block/chiseled_soulshale/step1",
+      "icewinter:block/chiseled_soulshale/step2",
+      "icewinter:block/chiseled_soulshale/step3",
+      "icewinter:block/chiseled_soulshale/step4",
+      "icewinter:block/chiseled_soulshale/step5"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.parrot.imitate.frostbite": {
+    "sounds": [
+      {
+        "name": "icewinter:mob/frostbite/ambient1",
+        "pitch": 1.8,
+        "volume": 0.7
+      },
+      {
+        "name": "icewinter:mob/frostbite/ambient2",
+        "pitch": 1.8,
+        "volume": 0.7
+      },
+      {
+        "name": "icewinter:mob/frostbite/ambient3",
+        "pitch": 1.8,
+        "volume": 0.7
+      },
+      {
+        "name": "icewinter:mob/frostbite/ambient4",
+        "pitch": 1.8,
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.entity.parrot.imitate.frostbite"
+  },
+  "music_disc.flurry": {
+    "sounds": [
+      {
+        "name": "icewinter:records/flurry",
+        "stream": true
+      }
+    ]
+  }
+}

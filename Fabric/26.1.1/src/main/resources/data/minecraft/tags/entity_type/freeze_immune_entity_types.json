@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "icewinter:frostbite",
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:drowned"
+  ]
+}

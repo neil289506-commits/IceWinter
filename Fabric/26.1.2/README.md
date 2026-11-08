@@ -1,4 +1,4 @@
-# IceWinter
+# IceWinter - Fabric 26.1.2
 
 ## Setup
 

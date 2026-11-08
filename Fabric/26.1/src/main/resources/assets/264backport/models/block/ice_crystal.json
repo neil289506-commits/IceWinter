@@ -1,0 +1,6 @@
+{
+  "parent": "264backport:block/cross",
+  "textures": {
+    "cross": "264backport:block/ice_crystal"
+  }
+}

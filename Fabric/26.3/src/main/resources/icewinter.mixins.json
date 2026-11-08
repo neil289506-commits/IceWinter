@@ -1,9 +1,32 @@
 {
 	"required": true,
-	"package": "org.backport.mixin",
+	"package": "backport.org.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"OverworldBiomeBuilderMixin",
+		"PotionBrewingMixin",
+		"ZombieMixin",
+		"WaterOnBlueIceMixin",
+		"IceSoundMixin",
+		"IceFaceMixin",
+		"IceAmbientMixin",
+		"FrostedIceVibrationMixin",
+		"IceMeltVibrationMixin",
+		"SnowLayerBlockMixin",
+		"SnowballMixin",
+		"LilyPadBrittleIceMixin",
+		"ShulkerBrittleIceMixin",
+		"SnowBrickWallToolMixin",
+		"FreezingDamageMixin",
+		"FreezingExtinguishSoundMixin",
+		"FireFreezeProtectionMixin",
+		"SkeletonFreezeProtectionMixin",
+		"ParrotFrostbiteMixin",
+		"FrostbiteAdvancementMixin",
+		"IceCaveVillagerTypeMixin",
+		"ColdSulfurCubeMixin",
+		"ColdSulfurCubeMovementMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

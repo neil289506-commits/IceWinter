@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "icewinter:packed_ice_bricks",
+  "result": {
+    "id": "icewinter:chiseled_packed_ice"
+  }
+}

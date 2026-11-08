@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:stone_ore_replaceables",
+    "#minecraft:deepslate_ore_replaceables",
+    "minecraft:tuff",
+    "minecraft:calcite",
+    "minecraft:packed_ice"
+  ]
+}

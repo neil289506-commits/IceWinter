@@ -1,0 +1,8 @@
+{
+  "parent": "icewinter:block/template_icicle_base",
+  "textures": {
+    "cross": "icewinter:block/icicle_frustum",
+    "side": "icewinter:block/icicle_side",
+    "top": "icewinter:block/icicle_top"
+  }
+}

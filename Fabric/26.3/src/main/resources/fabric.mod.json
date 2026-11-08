@@ -3,23 +3,23 @@
 	"id": "icewinter",
 	"version": "${version}",
 	"name": "IceWinter",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Backports Minecraft 26.4 content (Ice Caves, Packed Ice Bricks, Snow Bricks, Calcite, Frostbite and more) to 26.3.",
 	"authors": [
-		"Me!"
+		"neil289506-commits"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/neil289506-commits/Minecraft---Docompile",
+		"sources": "https://github.com/neil289506-commits/Minecraft---Docompile"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/icewinter/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"org.backport.IceWinter"
+			"backport.org.TwoSixFourBackPort"
 		],
 		"client": [
-			"org.backport.client.IceWinterClient"
+			"backport.org.client.TwoSixFourBackPortClient"
 		]
 	},
 	"mixins": [
